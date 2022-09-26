@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade sheet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main id="main-div">
+        <div class="row">
+            <div>
+                <h3>subject</h3>
+            </div>
+            <div>
+                <h3>Score</h3>
+            </div>
+            <div>
+                <h3>Grade</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <h3>English</h3>
+            </div>
+            <div>
+                <input type="text"  id="English">
+            </div>
+            <div>
+                <p id="english_result"></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <h3>Maths</h3>
+            </div>
+            <div>
+                <input type="text" id="maths">
+            </div>
+            <div>
+                <p id="math_result"></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <h3>Chemistry</h3>
+            </div>
+            <div>
+                <input type="text"id="chemistry">
+            </div>
+            <div>
+               <p id="chemistry_result"></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <h3>Biology</h3>
+            </div>
+            <div>
+                <input type="text" id="biology">
+            </div>
+            <div>
+                <p id="biology_result"></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div>
+                <h3>French</h3>
+            </div>
+            <div>
+                <input type="text" id="french">
+            </div>
+            <div>
+                <p id="french_result"></p>
+            </div>
+        </div>
+
+       <button type="button" onclick="getOutput()">Get Result</button>
+
+       <div class="row">
+        <h3> TOTAL</h3>
+        <p id="display_total"></p>
+        <p></p>
+       </div>
+       <div class="row">
+        <p>Remarks</p>
+        <p id="remarks"></p>
+        <p></p>
+       </div>
+
+       <div class="row">
+        <p>Average</p>
+        <p id="average"></p>
+        <p></p>
+       </div>
+    </main>
+
+    <script src="JS/app.js"></script>
+</body>
+</html>
